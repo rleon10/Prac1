@@ -6,7 +6,7 @@ pipeline {
     stages {
        stage("Preparation") {
             steps {
-                git 'https://github.com/rleon10/Prac1.git'
+                git 'https://github.com/rleon10/tic-tac-toe.git'
             }
        }
        stage("Test") {
